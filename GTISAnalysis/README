@@ -1,0 +1,19 @@
+CreateCrossingHistograms
+
+- start from folder 'tis'
+
+-----------------------------------------------------------------------------
+
+FreeEnergyLeastSquare
+
+- need a directory that contains:
+
+/home/.../interfaces.txt
+/home/.../forward/freeenergyhisto.%d.txt
+/home/../backward/freeenergyhisto.%d.txt
+
+directory is set by 
+ospath=...
+
+- freeenergyhisto.%d.txt are the free energy histograms created by 'CreateCrossingHistograms.py'
+- new data are written in freeenergyhisto.%d.dat

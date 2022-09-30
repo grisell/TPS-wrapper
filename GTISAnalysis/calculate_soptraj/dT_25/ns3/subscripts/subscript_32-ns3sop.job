@@ -1,0 +1,21 @@
+#!/bin/bash
+
+#$ -N calcoptraj_dT17
+#$ -S /bin/bash
+#$ -r n
+#$ -cwd
+#$ -l h_rt=39:59:00
+#$ -l qname=serial.q
+#$ -j y
+#$ -R y
+
+source $HOME/.bashrc
+export PYTHONPATH=$PYTHONPATH:"/home/users/diazlgjj/programs/TPSLammps-master:/home/users/diazlgjj/programs/TPSLammps-master/ClusterGTIS"
+module load numpy/1.7.0b2
+hostname
+#-----------------------------------------------------------
+# start of your job
+python ~/programs/TPSLammps-master/GTISAnalysis/calculate_soptraj/dT_25/ns3/calc_optrajectories_32.py start=0 stop=880 
+# end of your job
+#-----------------------------------------------------------
+# end of script
