@@ -1,0 +1,4 @@
+'2014-10-31 16:52:26,505 DEBUG logfile created'
+'2014-10-31 16:52:26,505 DEBUG 2 CPUs detected'
+'2014-10-31 16:52:26,506 DEBUG Read Interfaces Forward : []'
+'2014-10-31 16:52:26,506 DEBUG Read Interfaces Backward : []'
